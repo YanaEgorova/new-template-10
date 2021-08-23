@@ -4,6 +4,9 @@
 .footer {
   padding: 3rem  0;
 }
+.footer .logo__box {
+  margin-bottom: 4rem;
+}
 .footer__top {
   margin-bottom: 3rem;
 }
@@ -15,11 +18,9 @@
   text-transform: uppercase;
   font-size: 1.8rem;
   margin-bottom: 2rem;
-  /* color: var(--sub-text-color); */
 }
 .footer__span {
   font-size: 1.3rem;
-  color: var(--sub-text-color);
 }
 .footer__link-span {
   position: relative;
@@ -53,10 +54,15 @@
   }
   .footer__span {
     display: block;
-    text-align: right;
   }
   .footer__left, .footer__right {
     margin-bottom: 0;
+  }
+  .footer__right {
+    margin-right: 4rem;
+  }
+  .footer .logo__box {
+    margin-right: 4rem;
   }
 
   /* FOOTER LINK ON HOVER */

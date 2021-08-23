@@ -11,7 +11,7 @@
     padding: 0 2rem;
 }
 .orders__btn svg {
-    fill: var(--accent-color);
+    fill: var(--third-brand-color);
     width: 1.5rem;
     margin-right: 2rem;
     transition: all 0.3s ease-in-out;

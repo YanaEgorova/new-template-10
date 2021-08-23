@@ -127,6 +127,12 @@
       .product__block:hover:before {
         transform: scaleY(1);
       }
+      .products__list .item:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .products__list .item {
+        margin-bottom: 5rem !important;
+    }
 }
 @media screen and (min-width: 1024px) {
     .products .item {
@@ -146,9 +152,9 @@
     }
 }
 @media screen and (min-width: 1440px) {
-    /* .products .item {
+    .products .item {
         width: 16.5%;
-    } */
+    }
     .product .img {
         max-height: 10rem;
     }
